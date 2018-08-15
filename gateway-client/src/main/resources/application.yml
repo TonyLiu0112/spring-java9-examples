@@ -1,0 +1,10 @@
+server:
+  port: 8080
+logging:
+  level:
+    org.springframework.web.servlet: trace
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [env, mappings, health]
